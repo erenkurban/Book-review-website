@@ -1,0 +1,316 @@
+﻿body {
+    background-color: #e5e5e5;
+    font-family: Arial;
+    background-image: url('Old-paper.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#site {
+    width:960px;
+    height:auto;
+    margin:0 auto;
+    
+    
+}
+header {
+   width:100%;
+   height:50px;
+   float:left;
+   background-image: url('depositphotos_38875523-stock-photo-texture-background-old-book-cover.jpg');
+
+
+}
+a {
+    
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:#8c6363;
+}
+header .logo {
+    float:left;
+    width:90px;
+    height:50px;
+    
+    
+}
+header nav {
+    float: left;
+    height: 50px;
+    width: 300px;
+    
+    line-height: 50px;
+    
+}
+header nav ul{
+    list-style:none;
+    
+
+}
+  header nav ul li{
+    float:left;
+    margin-left:13px;
+    
+    
+}
+  header .search {
+    float:left;
+    height:50px;
+    width:250px;
+   
+    line-height:50px;
+
+}
+  header .search .searchbox {
+      float:left;
+      width:150px;
+      height:32px;
+      background-color:white;
+      line-height:35px;
+      padding-left:10px;
+      padding-right:10px;
+      margin-top:9px;
+      margin-bottom:9px;
+  }
+    header .search .btnSearch {
+        float: left;
+        width: 70px;
+        height: 32px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        background-image: url('Old-paper.jpg');
+    }
+  header .sign {
+      line-height:50px;
+      text-align:center;
+      background-color:white;
+
+  }
+  header .sign ul {
+    
+      list-style:none;
+      
+
+}
+    header .sign ul li {
+    float:right;
+    margin-left:12px;
+   padding-right:12px;
+    }
+.resim {
+    
+    width:100%;
+   
+  
+}
+    
+    .quickSignUp {
+        margin-top:40px;
+        float:left;
+        width:300px;
+        height:350px;
+        background-color:#a38028;
+        
+
+    }
+    .quickSignUp .up {
+        text-align:center;
+        float:left;
+        width:100%;
+        height:44px;
+        border-bottom:1px ridge #555;
+        line-height:44px;
+        
+    }
+    .quickSignUp .down {
+        margin-top:25px;
+        float:left;
+        width:280px;
+        height:220px;
+        padding-left:15px;
+
+    } 
+    .quickSignUp .down .txtsign {
+        
+        width:248px;
+        height:36px;
+        border:1px solid #555;
+        padding-left:5px;
+        margin-bottom:30px;
+
+    }
+   
+   .quickSignUp .down .btnclass {
+       background-color:#c3b068;
+       height:32px;
+       width:100px;
+       line-height:35px;
+       text-align:center;
+       float:left;
+       cursor:pointer;
+
+   }
+   .sagtaraf {
+       margin-top:40px;
+       width:650px;
+       float:right;
+       height:1300px;
+       
+       
+   }
+   .quickSignUp .down .btnSignIn {
+       background-color:#dbc14f;
+       height:32px;
+       width:100px;
+       text-align:center;
+       float:right;
+       margin-right:5px;
+       cursor:pointer;
+       line-height:32px;
+       
+   }
+   .quickSignUp .down #btnSgn {
+       font-size:16px;
+       background-color:#b6b76d;
+   }
+
+
+
+   .quickSignUp .down .btnSignIn:hover{
+       background-color:#514816;
+   }
+   .btnOut {
+  
+       margin-top:10px;
+       background-color:#8c6363;
+       height:30px;
+       width:110px;
+       margin-bottom:3px;
+   }
+   .pnlKullanici {
+       margin-top:40px;
+       width:300px;
+       background-color:#fff;
+       padding-left:6px;
+       cursor:pointer;
+       height:auto;
+
+
+   }
+   .GvKitap {
+     
+       width:650px;
+       text-align:center;
+       height:auto;
+       
+      
+   }
+    .sagtaraf .btnReview {
+       width:120px;
+       height:45px;
+       background-color:#659ca2;
+       text-align:center;
+       line-height:45px;
+   }
+    .sagtaraf .pnlListe {
+        width:629px;
+        height:auto;
+        margin-left:8px;
+        margin-right:8px;
+        padding-right:5px;
+        float:left;
+       
+    }
+    .sagtaraf .bilgiInc:hover {
+        background-color:#e5e5e5;
+    }
+    .sagtaraf .bilgiInc {
+        padding-top:5px;
+        margin-top:13px;
+        margin-bottom:13px;
+        background-color:#fbffcb;
+        float:left;
+        width:610px;
+        height:auto;
+        padding-left:11px;
+        padding-right:7px;
+        
+    }
+ .sagtaraf .divHata {
+     text-align:center;
+     margin-bottom:40px;
+}
+ .sagtaraf .kitapBilgileri {
+     float:left;
+     width:619px;
+     background-color:#fff;
+     height:auto;
+     padding-top:10px;
+     padding-left:11px;
+
+     
+ }
+ .duyuru {
+     float:left;
+     
+     margin-top:30px;
+     width:300px;
+     height:auto;
+       
+
+ }
+  .duyuru .duyuruUst {
+     float:left;
+     background-color:white;
+     width:300px;
+     height:40px;
+     text-align:center;
+     line-height:40px;
+ }
+.sagtaraf .sosyalMedya {
+    width:100%;
+   
+    
+}
+.duyuru .duyuruAlt {
+    float:left;
+    width:300px;
+    background-color:white;
+    
+    
+ 
+}
+.duyuru .duyuruAlt .lslDuy{
+    width:264px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-top:10px;
+    margin-left:13px;
+    margin-right:13px;
+    background-color:#dbc14f;
+    padding-top:8px;
+
+
+    
+}
+.duyuru .duyuruAlt .lslDuy:hover{
+    background-color:#e7e79d;
+}
+ .sagtaraf .paragraf {
+     float:left;
+     width:610px;
+     padding-left:20px;
+     padding-right:20px;
+     height:auto;
+     margin-top:40px;
+     padding-top:20px;
+     background-color:white;
+     height:380px;
+ }
+
+  
